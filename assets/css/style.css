@@ -1,0 +1,911 @@
+@font-face {
+    font-family: 'satoshi_Light';
+    src: url(../../assets/fonts/Satoshi-Light.ttf);
+}
+@font-face {
+    font-family: 'satoshi_Medium';
+    src: url(../../assets/fonts/Satoshi-Medium.ttf);
+}
+@font-face {
+    font-family: 'satoshi_Regular';
+    src: url(../../assets/fonts/Satoshi-Regular.ttf);
+}
+@font-face {
+    font-family: 'satoshi_Bold';
+    src: url(../../assets/fonts/Satoshi-Bold.ttf);
+}
+/*  font-family: 'satoshi_Light';
+    font-family: 'satoshi_Medium';
+    font-family: 'satoshi_Regular';
+    font-family: 'satoshi_Bold';
+*/
+body{
+    font-family: 'satoshi_Medium';
+}
+.mycontainer{
+    width: 100%;
+    max-width: 2400px;
+    margin: auto;
+}
+#section1{
+    margin-top: 90px;
+}
+.header_section {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #fff;
+    padding: 7px;
+    box-shadow: 0px 2px 10px 0px #FD56311A;
+}
+.navbar ul li a{
+    color: #454056 !important;
+    letter-spacing: .4px;
+    font-size: 18px;
+}
+.nav-link.active{
+    font-weight: 600;
+    color: #6E49FD !important;
+}
+.navbar-light .navbar-toggler{
+    border: none;
+    box-shadow: none;
+}
+.navbar_btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar_btns a{
+    text-decoration: none;
+    color: #6E49FD;
+}
+.navbar_btns button{
+    background: #6E49FD;
+    width: 100%;
+    max-width: 150px;
+    min-width: 130px;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+.hero_section{
+    background-image: url(../../assets/img/hero1.png);
+    height: auto;
+    min-height: 1200px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+}
+.hero_text_main_div {
+    padding: 100px 0px 50px 0px;
+    text-align: center;
+}
+.hero_text_main_div h1{
+    color: #fff;
+    font-size: 60px;
+    padding-top: 50px;
+}
+.hero_text_main_div p{
+    padding-top: 30px;
+    color: #fff;
+    line-height: 30px;
+    font-size: 22px;
+    font-family: 'satoshi_Regular';
+}
+.hero_text_main_div img{
+    padding-top: 100px;
+    width: 100%;
+}
+.howitworks_section{
+    margin-top: 150px;
+}
+.title {
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+}
+.hiw_cards_body_div{
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px 10px;
+}
+.hiw_cards_body_div h3{
+    padding-top: 15px;
+    color: #212529;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 28px;
+}
+.hiw_cards_body_div p{
+    color: #5A5A5A;
+    padding-top: 15px;
+    font-size: 17px;
+}
+.aboutus_section {
+    margin-top: 250px;
+}
+.about_imgs_main_div img{
+    width: 100%;
+    border-radius: 12px;
+}
+#about_imgs2{
+    position: relative;
+    top: -50px;
+}
+.aboutus_text_main_div{
+    padding: 0px 20px;
+}
+.aboutus_text_main_div h2{
+    font-weight: 600;
+    color: #212529;
+}
+.aboutus_text_main_div p{
+    color: #5A5A5A;  
+    font-family: 'satoshi_Regular';
+    font-size: 18px;
+}
+.aboutus_text_main_div a{
+    text-decoration: none;
+    color: #9C82FF;
+}
+.pricing_section{
+    margin-top: 250px;
+}
+.pricing_card_body_div{
+    position: relative;
+    margin-top: 50px;
+    background: #9C82FF05;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+}
+.pricing_card_plans_div{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pricing_card_plans_div h6{
+    margin-bottom: 0;
+}
+.pricing_card_body_div h2{
+    font-weight: 600;
+    padding-top: 5px;
+}
+.pricing_card_body_div h2 sup{
+    font-weight: 400;
+    font-size: 18px;
+}
+.pricing_card_body_div p{
+    padding-top: 5px;
+    font-family: 'satoshi_Regular';
+}
+#popular_btn{
+    background: #212529;
+    color: #fff;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 30px;
+}
+.pricing_card_body_div h3{
+    font-weight: 600;
+}
+.pricing_btn_div button{
+    margin-top: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    color: #fff;
+    background: #9C82FF;
+    border: none;
+}
+#pricing_card_two{
+    box-shadow: 0px 2px 10px 0px #9C82FF26;
+}
+.footer_section{
+    background: #212529;
+    padding: 50px 0px;
+    margin-top: 150px;
+}
+.footer_text1_div p{
+    padding-top: 20px;
+    color: #fff;
+    font-family: 'satoshi_Regular';
+}
+.footer_text1_div img{
+    height: 70px;
+}
+.footer_sicial_icons_div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer_text_two_div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer_text_two_div h4{
+    color: #fff;
+}
+.footer_text_two_div a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer_text_three_div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_text_three_div h4{
+    color: #fff;
+}
+.footer_text_three_div a{
+    text-decoration: none;
+    font-family: 'satoshi_Regular';
+    color: #fff;
+}
+/* ............................................................................................. */
+.accounts_section{
+    width: 100%;
+    display: flex;
+    height: auto;
+    min-height: 100vh;
+}
+.accounts_left_card_main_div{
+    background-color: #fff;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accounts_left_card_body_div{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    min-height: 400px;
+    padding: 20px;
+    background-color: #fff;
+}
+.account_btn1{
+    background: #9C82FF05;
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    color: #9C82FF;
+}
+.ortext_main{
+    margin: 30px 0px;
+    position: relative;
+    border-bottom: 1px solid #D5D2DC;
+}
+.ortext_main > div{
+    margin-bottom: 0;
+    position: absolute;
+    top: -15px;
+    text-align: center;
+    left: 47%;
+    background-color: #fff;
+    padding: 0px 15px;
+}
+.ortext_main > div p{
+    text-align: center;
+    color: #D5D2DC;
+}
+.accounts_input_div{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 20px;
+}
+.accounts_input_div label{
+    color: #454056;
+}
+.accounts_input_div input{
+    border: 1px solid #D5D2DC;
+    padding: 9px 15px;
+    border-radius: 8px;
+    outline: none;
+    color: #454056;
+    font-size: 15px;
+}
+.accounts_forget_password {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.accounts_forget_password label{
+    color: #454056;
+    font-size: 16px;
+    user-select: none;
+}
+.accounts_forget_password a{
+    text-decoration: none;
+    color: #9C82FF;
+    font-size: 16px;
+}
+.accounts_last_btn button{
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    border: none;
+    background: #9C82FF;
+    color: #fff;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+.accounts_last_text {
+    padding-top: 15px;
+    font-size: 16px;
+    color: #454056;
+    text-align: center;
+}
+.accounts_last_text a{
+    text-decoration: none;
+    color: #9C82FF;
+    font-size: 16px;
+}
+.accounts_left_card_body_div h1{
+    color: #454056;
+    font-size: 36px;
+    font-weight: 600;
+}
+.accounts_left_card_body_div p{
+    color: #454056;
+    font-size: 16px;
+}
+.accounts_right_card_main_div{
+    background: #9C82FF08;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accounts_right_card_body_div{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    min-height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+.accounts_right_card_body_div h3{
+    padding-top: 20px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.accounts_right_card_main_div img{
+    margin-top: 20px;
+}
+.accounts_frame{
+    width: 100%;
+}
+.title{
+    color: #454056;
+    font-weight: 600;
+    font-size: 42px;
+    letter-spacing: 0em;
+    margin-top: 120px;
+}
+.title span{
+    color: #9C82FF;
+}
+.add_property_btn_div{
+    padding: 30px 0px;
+}
+.dashboard_section_one{
+    padding: 0px 50px;
+}
+.dashbaord_map_div img{
+    width: 100%;
+    margin-top: 40px;
+}
+.dashbaord_map_div iframe{
+    width: 100%;
+    margin-top: 20px;
+    height: 700px;
+}
+.add_property_btn_div .add_property_btn{
+   width: 100%;
+   max-width: 200px;
+   margin: auto;
+}
+.add_property_btn{
+    background: #9C82FF;
+    padding: 7px;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    width: 160px;
+}
+.add_property_card_body_div{
+    box-shadow: 0px 2px 10px 0px #9C82FF1A;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.add_property_right_div{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    text-align: end;
+}
+.add_property_right_div button{
+    background: #9C82FF;
+    padding: 7px;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    width: 160px;
+    font-size: 16px;
+}
+.add_property_right_div label{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #454056;
+}
+.add_property_left_div h5{
+    font-weight: 600;
+}
+.add_property_left_div p{
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    margin-bottom: 0;
+}
+.modal_input_div{
+    display: flex;
+    gap: 6px;
+    margin-top: 15px;
+    flex-direction: column;
+}
+.modal_input_div label{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    color: #454056;
+}
+.modal_input_div input{
+    width: 100%;
+    border: 1px solid #D5D2DC;
+    padding: 9px 15px;
+    border-radius: 8px;
+    outline: none;
+    color: #454056;
+    font-size: 15px;
+}
+.modal_input_div select{
+    width: 100%;
+    border: 1px solid #D5D2DC;
+    padding: 9px 15px;
+    border-radius: 8px;
+    outline: none;
+    color: #454056;
+    font-size: 15px;
+    box-shadow: none !important;
+}
+.modal_title{
+    padding: 25px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #454056;
+}
+.add_properttext{
+    margin-bottom: 0;
+    padding: 40px;
+    color: #454056;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.dash_modal_last_btns{
+    padding: 40px 0px;  
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.dash_modal_last_btns button{
+    width: 180px;
+    border: 1px solid #9C82FF;
+    padding: 6px 10px;
+    background-color: transparent;
+    color: #9C82FF;
+    font-size: 16px;
+    border-radius: 7px;
+}
+.active_btn {
+    background: #9C82FF !important;
+    color: #fff !important;
+}
+.modal-body{
+    padding: 10px 30px;
+}
+.pro_detail_title{
+    background: #9C82FF;
+    padding: 10px 50px;
+    margin-top: 80px;
+}
+.property_detail_section_one{
+    padding: 0px 50px;
+}
+.pro_detail_text_inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0px;
+}
+.pro_detail_text_inner a{
+    text-decoration: none;
+    color: #fff;
+}
+.pro_detail_text_inner h4{
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 22px;
+}
+.pro_det_sec1_title{
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+.pro_det_sec1_title_btns{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.pro_det_sec1_title_btns button{
+    width: 150px;
+    border: 1px solid #9C82FF;
+    padding: 6px 10px;
+    background-color: transparent;
+    color: #9C82FF;
+    font-size: 18px;
+    border-radius: 7px;
+}
+.active_btn2 {
+    background: #9C82FF !important;
+    color: #fff !important;
+}
+.pro_det_sec1_cards_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pro_det_sec1_cards_title h5{
+    color: #454056;
+    font-weight: 600;
+}
+.pro_detselect_div{
+    width: 100%;
+    max-width: 200px;
+    position: relative;
+}
+.pro_det_sec1_cards_title select{
+    box-shadow: none !important;
+    padding-left: 35px;
+    font-size: 16px;
+}
+.pro_det_sec1_cards_title img{
+    position: absolute;
+    top: 9px;
+    left: 7px;
+    height: 24px;
+}
+.pro_det_sec1_card_body_div{
+    margin-top: 30px;
+    border: 1px solid #9C82FF;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pro_det_sec1_card_text p{
+    margin-bottom: 0;
+    color: #454056;
+    font-family: 'satoshi_Regular';
+}
+.pro_det_sec1_card_text h4{
+    font-weight: 600;
+    color: #454056;
+}
+.modal_input_radio_div{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 15px;
+}
+.modal_input_radio_div p{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    color: #454056;
+}
+.modal_input_radio_div label{
+    padding: 9px 15px;
+    border-radius: 8px;
+    outline: none;
+    color: #454056;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #D5D2DC;
+}
+.pro_det_add_transaction{
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+.pro_det_add_transaction h2{
+    padding-top: 10px;
+    font-size: 27px;
+    font-weight: 600;
+}
+.all_trans_title{
+    padding-bottom: 30px;
+    color: #454056;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.all_transaction_topbar_div{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+.all_transaction_input_div{
+    width: 100%;
+    position: relative;
+}
+.all_transaction_input_div img{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    height: 24px;
+}
+.all_transaction_input_div input{
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #D5D2DC;
+    padding: 9px 15px;
+    border-radius: 8px;
+    outline: none;
+    color: #454056;
+    font-size: 15px;
+    padding-left: 40px;
+    height: 41px;
+}
+.all_transaction_select_div{
+    position: relative;
+    width: 100%;
+    max-width: 270px;
+}
+.all_transaction_select_div img {
+    position: absolute;
+    top: 28px;
+    left: 7px;
+    height: 24px;
+}
+.all_transaction_select_div select{
+    padding-left: 35px;
+}
+.all_transaction_topbar_div select{
+    box-shadow: none !important;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 270px;
+    font-size: 16px;
+    color: #454056;
+    height: 41px;
+}
+.all_transations_table_div{
+    margin-top: 50px;
+    width: 100%;
+    overflow-y: auto;
+}
+.all_transations_table_div::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+.all_transations_table_div .table>:not(caption)>*>*{
+    border: none;
+}
+.table>:not(:last-child)>:last-child>*{
+    border-bottom: 1px solid #D5D2DC;
+    color: #454056;
+}
+.table_date{
+    margin-bottom: 0;
+    margin: 10px 0px;
+    color: #454056;
+    font-family: 'satoshi_Regular';
+}
+.table_location{
+    text-align: center;
+    margin-bottom: 0;
+    margin: 10px 0px;
+    color: #454056;
+    font-family: 'satoshi_Regular';
+    min-width: 230px;
+}
+.table_amount{
+    text-align: center;
+    margin-bottom: 0;
+    margin: 10px 0px;
+    color: #454056;
+    font-family: 'satoshi_Regular';
+}
+.table_btn{
+    width: 180px;
+    border: 1px solid #9C82FF;
+    margin: 10px 0px;
+    padding: 7px;
+    border-radius: 7px;
+    color: #9C82FF;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'satoshi_Regular';
+}
+.transaction_section_one{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.tran_sec1_title{
+    margin-top: 50px;
+}
+.tran_sec1_title h2{
+    color: #454056;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.tran_sec1_title p{
+    text-align: center;
+}
+.transaction_buttons_div{
+    display: flex;
+    gap: 15px;
+}
+.transaction_buttons_div button{
+    background-color: #fff;
+    border: 1.37px solid #BBB7C5;
+    padding: 8px 10px;
+    width: 100%;
+    max-width: 320px;
+    margin-top: 12px;
+    border-radius: 8px;
+    color: #454056;
+}
+.transaction_sec1_card_body_div{
+    margin-top: 50px;
+    box-shadow: 0px 2px 10px 0px #9C82FF1A;
+    padding: 20px;
+}
+.transaction_sec1_card_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.transaction_sec1_card_text p{
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #454056;
+}
+.transaction_sec1_card_text h5{
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    color: #454056;
+}
+.transaction_sec1_card_button{
+    text-align: end;
+    margin-top: 20px;
+}
+.transaction_sec1_card_button button{
+    background: #9C82FF;
+    border: 1.37px solid #BBB7C5;
+    padding: 8px 10px;
+    width: 100%;
+    max-width: 240px;
+    margin-top: 12px;
+    border-radius: 8px;
+    color: #fff;
+}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 550px;
+    margin: 1.75rem auto;
+}
+}
+@media (max-width:1276px){
+    .hero_section{
+        background-color: #9C82FF;
+    }
+}
+@media (max-width:992px){
+    .hero_text_main_div  h1 br{
+        display: none;
+    }
+    .hero_text_main_div h1{
+        font-size: 45px;
+    }
+    #about_imgs2 {
+        position: relative;
+        top: 0px;
+    }
+    .dashbaord_map_div{
+        padding: 0px 10px;
+    }
+    .dashbaord_map_div iframe {
+        width: 100%;
+        margin-top: 20px;
+        height: 500px;
+    }
+}
+@media (max-width:768px){
+    .property_detail_section_one {
+        padding: 0px 0px;
+    }
+    .pro_detail_text_inner span{
+        display: none;
+    }
+    .pro_detail_title {
+        background: #9C82FF;
+        padding: 10px 0px;
+        margin-top: 80px;
+    }
+    .accounts_section{
+        flex-direction: column-reverse;
+    }
+    .accounts_left_card_main_div{
+        width: 100%;
+    }
+    .accounts_right_card_main_div{
+        width: 100%;
+    }
+    .transaction_buttons_div{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:650px){
+    .all_transaction_topbar_div{
+        flex-wrap: wrap;
+    }
+}
